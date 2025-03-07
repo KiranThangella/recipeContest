@@ -1,0 +1,356 @@
+export const recipes = [
+  {
+    name: "Spaghetti Carbonara",
+    chef: "Chef Mario",
+    totalRatings: 500,
+    avgRating: 4.8,
+    uploadedOn: "2024-01-15",
+    mealType: "Dinner",
+    dishType: "Pasta",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: false,
+    description:
+      "A classic Italian pasta dish with a creamy egg-based sauce and crispy pancetta.",
+    imgUrl:
+      "https://i.pinimg.com/564x/a9/0e/e4/a90ee4bca901e935a7a406a7d90ca6c2.jpg",
+  },
+  {
+    name: "Chicken Tikka Masala",
+    chef: "Chef Raj",
+    totalRatings: 850,
+    avgRating: 4.9,
+    uploadedOn: "2024-02-01",
+    mealType: "Dinner",
+    dishType: "Curry",
+    testKitchenApproved: true,
+    contestWinner: true,
+    featured: true,
+    description:
+      "A creamy and spicy tomato-based curry with tender grilled chicken pieces.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741333084/Chicken%20Tikka%20Masala.webp",
+  },
+  {
+    name: "Avocado Toast",
+    chef: "Chef Emily",
+    totalRatings: 320,
+    avgRating: 4.7,
+    uploadedOn: "2024-02-10",
+    mealType: "Breakfast",
+    dishType: "Toast",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: false,
+    description:
+      "Crunchy sourdough topped with mashed avocado, cherry tomatoes, and a hint of lime.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741333751/avocado-toast-recipe-3_w9pbxv.webp",
+  },
+  {
+    name: "Beef Stroganoff",
+    chef: "Chef Anton",
+    totalRatings: 600,
+    avgRating: 4.6,
+    uploadedOn: "2024-01-22",
+    mealType: "Dinner",
+    dishType: "Stew",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: true,
+    description:
+      "Tender beef strips in a rich and creamy mushroom sauce, served over egg noodles.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741333781/Creamy-Beef-Stroganoff-IMAGE-130_feuyhl.jpg",
+  },
+  {
+    name: "Blueberry Pancakes",
+    chef: "Chef Linda",
+    totalRatings: 720,
+    avgRating: 4.8,
+    uploadedOn: "2024-01-05",
+    mealType: "Breakfast",
+    dishType: "Pancake",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: false,
+    description:
+      "Fluffy pancakes loaded with fresh blueberries and served with maple syrup.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741333810/Taking-a-Bite-of-Blueberry-Pancakes_ojd5lo.jpg",
+  },
+  {
+    name: "Caprese Salad",
+    chef: "Chef Sofia",
+    totalRatings: 410,
+    avgRating: 4.5,
+    uploadedOn: "2024-02-14",
+    mealType: "Lunch",
+    dishType: "Salad",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: false,
+    description:
+      "Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741333726/AR-228126-caprese-salad-with-balsamic-reduction-ddmfs-2644-4x3-f32ac2b2fb9d4234884a752490fb015b_sttqq7.jpg",
+  },
+  {
+    name: "Chocolate Lava Cake",
+    chef: "Chef Gordon",
+    totalRatings: 950,
+    avgRating: 4.9,
+    uploadedOn: "2024-02-20",
+    mealType: "Dessert",
+    dishType: "Cake",
+    testKitchenApproved: true,
+    contestWinner: true,
+    featured: true,
+    description: "A rich and decadent chocolate cake with a molten center.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741333789/images_tkhcl5.jpg",
+  },
+
+  {
+    name: "Butter Chicken",
+    chef: "Chef Arjun",
+    totalRatings: 920,
+    avgRating: 4.9,
+    uploadedOn: "2024-02-01",
+    mealType: "Dinner",
+    dishType: "Curry",
+    testKitchenApproved: true,
+    contestWinner: true,
+    featured: true,
+    description:
+      "A rich and creamy tomato-based curry with tender chicken pieces, best served with naan or rice.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741333772/Chicken-Curry-Recipe-1200_cuxmyn.jpg",
+  },
+  {
+    name: "Pepperoni Pizza",
+    chef: "Chef Antonio",
+    totalRatings: 850,
+    avgRating: 4.8,
+    uploadedOn: "2024-01-25",
+    mealType: "Dinner",
+    dishType: "Pizza",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: true,
+    description:
+      "A classic New York-style pizza with crispy pepperoni slices, gooey cheese, and a tangy tomato base.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741333801/new-york-style-pizza2_rxzams.jpg",
+  },
+  {
+    name: "Garlic Butter Shrimp",
+    chef: "Chef Sofia",
+    totalRatings: 670,
+    avgRating: 4.7,
+    uploadedOn: "2024-02-10",
+    mealType: "Dinner",
+    dishType: "Seafood",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: false,
+    description:
+      "Juicy shrimp sautéed in garlic butter and served with lemon wedges and fresh parsley.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741335108/wholesomeyum-Lemon-Garlic-Butter-Shrimp-Recipe-19_ykm9bs.jpg",
+  },
+  {
+    name: "Tom Yum Soup",
+    chef: "Chef Lek",
+    totalRatings: 780,
+    avgRating: 4.8,
+    uploadedOn: "2024-01-30",
+    mealType: "Lunch",
+    dishType: "Soup",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: true,
+    description:
+      "A spicy and sour Thai soup with shrimp, lemongrass, lime leaves, and mushrooms.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741335128/tom-yum-goong-blog_lu7jh7.jpg",
+  },
+  {
+    name: "Beef Tacos",
+    chef: "Chef Diego",
+    totalRatings: 910,
+    avgRating: 4.9,
+    uploadedOn: "2024-02-05",
+    mealType: "Lunch",
+    dishType: "Mexican",
+    testKitchenApproved: true,
+    contestWinner: true,
+    featured: true,
+    description:
+      "Authentic Mexican-style beef tacos with fresh cilantro, onions, and a squeeze of lime.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741335307/images_1_yxnell.jpg",
+  },
+  {
+    name: "Berry Blast Smoothie",
+    chef: "Chef Emily",
+    totalRatings: 500,
+    avgRating: 4.7,
+    uploadedOn: "2024-02-15",
+    mealType: "Breakfast",
+    dishType: "Smoothie",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: false,
+    description:
+      "A refreshing smoothie made with strawberries, blueberries, bananas, and Greek yogurt.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741335387/5-minute-strawberry-banana-smoothie-bowl_hhderl.jpg",
+  },
+
+  {
+    name: "Classic Tiramisu",
+    chef: "Chef Marco",
+    totalRatings: 890,
+    avgRating: 4.8,
+    uploadedOn: "2024-02-15",
+    mealType: "Dessert",
+    dishType: "Italian Dessert",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: true,
+    description:
+      "An Italian layered dessert with espresso-soaked ladyfingers, mascarpone cheese, and cocoa powder.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741335819/images_2_naumg5.jpg",
+  },
+  {
+    name: "Mango Sticky Rice",
+    chef: "Chef Lek",
+    totalRatings: 770,
+    avgRating: 4.7,
+    uploadedOn: "2024-02-10",
+    mealType: "Dessert",
+    dishType: "Thai Dessert",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: false,
+    description:
+      "A sweet and creamy Thai dessert made with sticky rice, coconut milk, and fresh mango slices.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741335904/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__03__20160323-mango-sticky-rice-vicky-wasik-5-5ec805a5a1bd4403a0d72347ec35f693_ovurjz.webp",
+  },
+  {
+    name: "French Macarons",
+    chef: "Chef Elise",
+    totalRatings: 820,
+    avgRating: 4.8,
+    uploadedOn: "2024-02-18",
+    mealType: "Dessert",
+    dishType: "French Pastry",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: true,
+    description:
+      "Colorful almond meringue cookies filled with rich buttercream or ganache.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741336070/almond-cookies_f4de8m.jpg",
+  },
+  {
+    name: "New York Cheesecake",
+    chef: "Chef Rachel",
+    totalRatings: 910,
+    avgRating: 4.9,
+    uploadedOn: "2024-02-25",
+    mealType: "Dessert",
+    dishType: "Cake",
+    testKitchenApproved: true,
+    contestWinner: true,
+    featured: true,
+    description:
+      "A rich and creamy baked cheesecake with a graham cracker crust, topped with fresh berries.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741336154/new-york-cheesecake-40742-1_zfstbv.jpg",
+  },
+
+  {
+    name: "Grilled Salmon with Lemon Butter",
+    chef: "Chef Oliver",
+    totalRatings: 920,
+    avgRating: 4.9,
+    uploadedOn: "2024-02-15",
+    mealType: "Dinner",
+    dishType: "Seafood",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: true,
+    description:
+      "Perfectly grilled salmon fillet topped with a zesty lemon butter sauce, served with steamed vegetables.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741336359/grilled-lemon-butter-salmon-9smb-7_wxhgaa.jpg",
+  },
+  {
+    name: "Garlic Butter Shrimp",
+    chef: "Chef Isabella",
+    totalRatings: 850,
+    avgRating: 4.8,
+    uploadedOn: "2024-02-10",
+    mealType: "Dinner",
+    dishType: "Seafood",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: true,
+    description:
+      "Juicy shrimp sautéed in garlic butter and herbs, served over pasta or rice.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741336436/garlic-butter-shrimp-3_qokimt.webp",
+  },
+  {
+    name: "Spicy Cajun Crab Legs",
+    chef: "Chef Marcus",
+    totalRatings: 780,
+    avgRating: 4.7,
+    uploadedOn: "2024-02-12",
+    mealType: "Dinner",
+    dishType: "Seafood",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: false,
+    description:
+      "Tender crab legs coated in a spicy Cajun butter sauce, served with corn and potatoes.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741336789/DK6A2462-680x1020_j96w0l.jpg",
+  },
+  {
+    name: "Sushi Platter",
+    chef: "Chef Kenji",
+    totalRatings: 900,
+    avgRating: 4.9,
+    uploadedOn: "2024-02-18",
+    mealType: "Lunch",
+    dishType: "Seafood",
+    testKitchenApproved: true,
+    contestWinner: true,
+    featured: true,
+    description:
+      "An assortment of fresh sushi rolls, sashimi, and nigiri, served with wasabi and soy sauce.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741336719/istockphoto-1224916255-612x612_ims8p0.jpg",
+  },
+  {
+    name: "Lobster Bisque",
+    chef: "Chef Sophie",
+    totalRatings: 890,
+    avgRating: 4.8,
+    uploadedOn: "2024-02-20",
+    mealType: "Dinner",
+    dishType: "Seafood",
+    testKitchenApproved: true,
+    contestWinner: false,
+    featured: true,
+    description:
+      "A creamy, rich lobster soup made with fresh lobster meat, butter, and aromatic spices.",
+    imgUrl:
+      "https://res.cloudinary.com/dmqpae4lu/image/upload/v1741336540/Lobster-Bisque-Reshoot-2.8.24-54-scaled_cpy21e.webp",
+  },
+];
