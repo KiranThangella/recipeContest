@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KiranThangella/recipeContest.git/static/css/main.eb68b78d.css",
+    "main.js": "/KiranThangella/recipeContest.git/static/js/main.e19bc93d.js",
+    "static/js/453.fad98cab.chunk.js": "/KiranThangella/recipeContest.git/static/js/453.fad98cab.chunk.js",
+    "index.html": "/KiranThangella/recipeContest.git/index.html",
+    "main.eb68b78d.css.map": "/KiranThangella/recipeContest.git/static/css/main.eb68b78d.css.map",
+    "main.e19bc93d.js.map": "/KiranThangella/recipeContest.git/static/js/main.e19bc93d.js.map",
+    "453.fad98cab.chunk.js.map": "/KiranThangella/recipeContest.git/static/js/453.fad98cab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb68b78d.css",
+    "static/js/main.e19bc93d.js"
+  ]
+}
